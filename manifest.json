@@ -1,13 +1,27 @@
 {
-  "version": "1.0.1",
-  "timestamp": "2026-04-05T00:51:05Z",
+  // ─── 버전 (Actions가 자동으로 올려줌, 건드리지 마세요) ───
+  "version": "1.0.0",
+  "timestamp": "2026-04-05T00:00:00Z",
   "repository": "https://github.com/zzapcho/mcserver1",
-  "files": [
+
+  // ─── 게임 버전 ────────────────────────────────────────────
+  "gameVersion": "1.21.11",   // 원하는 버전으로 변경
+
+  // ─── 모드 로더 ────────────────────────────────────────────
+  "modLoader": {
+    "type": "fabric",        // "fabric" | "forge" | "vanilla"
+    "version": "latest"      // 항상 최신 버전 자동 설치
+  },
+
+  // ─── 서버 목록 (유저 게임에 자동 추가됨) ─────────────────
+  "servers": [
     {
-      "path": "resourcepacks/Fullbright-UB-1.21 fub-6.0.zip",
-      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/resourcepacks/Fullbright-UB-1.21 fub-6.0.zip",
-      "md5": "ca6862b2c96e65c15649cb4858998651",
-      "size": 238845
+      "name": "야생",
+      "ip": "smp.zzapcho.kr",
+      "port": 25565          // 기본 포트면 생략 가능
     }
-  ]
+  ],
+
+  // ─── 파일 목록 (Actions가 자동 생성, 건드리지 마세요) ─────
+  "files": []
 }
