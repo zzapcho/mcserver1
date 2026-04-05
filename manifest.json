@@ -1,6 +1,6 @@
 {
-  "version": "1.0.1",
-  "timestamp": "2026-04-05T01:33:02Z",
+  "version": "1.0.2",
+  "timestamp": "2026-04-05T01:54:28Z",
   "repository": "https://github.com/zzapcho/mcserver1",
   "gameVersion": "1.21.11",
   "modLoader": {
@@ -15,6 +15,120 @@
     }
   ],
   "files": [
+    {
+      "path": "mods/simple-armor-hud-1.21.11-1.7.0.jar",
+      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/mods/simple-armor-hud-1.21.11-1.7.0.jar",
+      "md5": "8f5bbdbe1aa7c820b4e69e53812262f0",
+      "size": 31835
+    },
+    {
+      "path": "mods/MouseTweaks-fabric-mc1.21.11-2.30.jar",
+      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/mods/MouseTweaks-fabric-mc1.21.11-2.30.jar",
+      "md5": "44f747eddb6318544459f02bfbebf752",
+      "size": 75618
+    },
+    {
+      "path": "mods/shulkerboxtooltip-fabric-5.2.16+1.21.11.jar",
+      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/mods/shulkerboxtooltip-fabric-5.2.16+1.21.11.jar",
+      "md5": "2db6b45c2162251659ca8b96aa938232",
+      "size": 389259
+    },
+    {
+      "path": "mods/BetterAdvancements-Fabric-1.21.11-0.4.8.54.jar",
+      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/mods/BetterAdvancements-Fabric-1.21.11-0.4.8.54.jar",
+      "md5": "f38e24b24b29e3e9c4f46edfac22bdba",
+      "size": 103189
+    },
+    {
+      "path": "mods/sodium-extra-fabric-0.8.3+mc1.21.11.jar",
+      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/mods/sodium-extra-fabric-0.8.3+mc1.21.11.jar",
+      "md5": "6d9e005c52ed09fe681330408f05815c",
+      "size": 394219
+    },
+    {
+      "path": "mods/modmenu-17.0.0.jar",
+      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/mods/modmenu-17.0.0.jar",
+      "md5": "c46182d61ea8f99e68f5d86af1b3fdd8",
+      "size": 1115809
+    },
+    {
+      "path": "mods/BetterF3-17.0.0-Fabric-1.21.11.jar",
+      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/mods/BetterF3-17.0.0-Fabric-1.21.11.jar",
+      "md5": "6514c20b73422437c9662484b07ad207",
+      "size": 1714229
+    },
+    {
+      "path": "mods/fabric-api-0.141.3+1.21.11.jar",
+      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/mods/fabric-api-0.141.3+1.21.11.jar",
+      "md5": "f7e723a1649302a0a6923022a7596f1a",
+      "size": 2412693
+    },
+    {
+      "path": "mods/lithium-fabric-0.21.4+mc1.21.11.jar",
+      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/mods/lithium-fabric-0.21.4+mc1.21.11.jar",
+      "md5": "b4ca44f58755e258a9b1ea5fd7b3644a",
+      "size": 900462
+    },
+    {
+      "path": "mods/entityculling-fabric-1.10.0-mc1.21.11.jar",
+      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/mods/entityculling-fabric-1.10.0-mc1.21.11.jar",
+      "md5": "b04e373862082552a51e569fd059b70d",
+      "size": 1580001
+    },
+    {
+      "path": "mods/simplefog-fabric-1.21.11-2.0.12.jar",
+      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/mods/simplefog-fabric-1.21.11-2.0.12.jar",
+      "md5": "2c9021a595f5cf21c7423ed27f33f159",
+      "size": 34937
+    },
+    {
+      "path": "mods/iris-fabric-1.10.7+mc1.21.11.jar",
+      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/mods/iris-fabric-1.10.7+mc1.21.11.jar",
+      "md5": "5a7742b06041a0a98aa5df00ec8ce9a9",
+      "size": 2807547
+    },
+    {
+      "path": "mods/voicechat-fabric-1.21.11-2.6.15.jar",
+      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/mods/voicechat-fabric-1.21.11-2.6.15.jar",
+      "md5": "314a36cfea795548a2e64c1459910f83",
+      "size": 5573416
+    },
+    {
+      "path": "mods/reeses-sodium-options-fabric-2.0.3+mc1.21.11.jar",
+      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/mods/reeses-sodium-options-fabric-2.0.3+mc1.21.11.jar",
+      "md5": "e27a13afb9a61f57af114e0f93fa8727",
+      "size": 104577
+    },
+    {
+      "path": "mods/simple-hud-enhanced+1.21.11-4.7.5.jar",
+      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/mods/simple-hud-enhanced+1.21.11-4.7.5.jar",
+      "md5": "c7157e407b8142e2ad11c34f6cfe3ee0",
+      "size": 1186272
+    },
+    {
+      "path": "mods/chat_heads-1.2.1-fabric-1.21.11.jar",
+      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/mods/chat_heads-1.2.1-fabric-1.21.11.jar",
+      "md5": "45d8503701de058a01930e7778b3fe7a",
+      "size": 92750
+    },
+    {
+      "path": "mods/koreanpatch-fabric-1.9.5+mc1.21.11.jar",
+      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/mods/koreanpatch-fabric-1.9.5+mc1.21.11.jar",
+      "md5": "279717a521c4aa2cf450275220a985b7",
+      "size": 652311
+    },
+    {
+      "path": "mods/sodium-fabric-0.8.7+mc1.21.11.jar",
+      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/mods/sodium-fabric-0.8.7+mc1.21.11.jar",
+      "md5": "be9eef883db31e21e422aed7262df919",
+      "size": 1870358
+    },
+    {
+      "path": "mods/continuity-3.0.1-beta.1+1.21.11.jar",
+      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/mods/continuity-3.0.1-beta.1+1.21.11.jar",
+      "md5": "d0011d547cfb5428b25071a2b518a776",
+      "size": 997125
+    },
     {
       "path": "resourcepacks/Dramatic Skys Demo 1.5.3.36.2.zip",
       "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/resourcepacks/Dramatic Skys Demo 1.5.3.36.2.zip",
