@@ -1,0 +1,38 @@
+name: Update Manifest
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'mods/**'
+      - 'config/**'
+      - 'resourcepacks/**'
+      - 'shaderpacks/**'
+  workflow_dispatch:   # 수동 실행도 가능
+
+jobs:
+  generate-manifest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate manifest.json
+        run: python3 .github/scripts/generate_manifest.py
+
+      - name: Commit & Push manifest
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add manifest.json
+          git diff --staged --quiet && echo "변경 없음, 커밋 스킵" || (
+            git commit -m "chore: update manifest [skip ci]" && git push
+          )
