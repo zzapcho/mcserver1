@@ -26,7 +26,7 @@ jobs:
           python-version: '3.11'
 
       - name: Generate manifest.json
-        run: python3 .github/scripts/generate_manifest.py
+        run: python3 .github/skripts/generate_manifest.py
 
       - name: Commit & Push manifest
         run: |
