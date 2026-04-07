@@ -1,6 +1,6 @@
 {
-  "version": "1.0.3",
-  "timestamp": "2026-04-06T11:05:26Z",
+  "version": "1.0.4",
+  "timestamp": "2026-04-07T11:19:56Z",
   "repository": "https://github.com/zzapcho/mcserver1",
   "gameVersion": "1.21.11",
   "modLoader": {
@@ -146,6 +146,12 @@
       "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/resourcepacks/Fullbright-UB-1.21 fub-6.0.zip",
       "md5": "ca6862b2c96e65c15649cb4858998651",
       "size": 238845
+    },
+    {
+      "path": "shaderpacks/ComplementaryUnbound_r5.7.1.zip",
+      "url": "https://raw.githubusercontent.com/zzapcho/mcserver1/main/shaderpacks/ComplementaryUnbound_r5.7.1.zip",
+      "md5": "b535d194c7115b360860e226c65ae3f2",
+      "size": 522973
     }
   ]
 }
